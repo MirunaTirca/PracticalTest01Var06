@@ -44,21 +44,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="CheckBox" />
+            android:text="hold"
+            android:onClick="itemClicked"/>
 
         <CheckBox
             android:id="@+id/second_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="CheckBox" />
+            android:text="hold" />
 
         <CheckBox
             android:id="@+id/third_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="CheckBox" />
+            android:text="hold" />
 
     </LinearLayout>
 
@@ -68,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/second_layout"
         android:layout_centerInParent="true"
-        android:text="Button" />
+        android:text="PLAY" />
 
 
 </RelativeLayout>
